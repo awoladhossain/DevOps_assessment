@@ -17,7 +17,6 @@ spec:
     spec:
       containers:
         - name: backend
-          # Dynamic tag version, replaced by CI/CD pipeline. Do not use 'latest' in production.
           image: ghcr.io/logicmatrix/backend:v1.0.0
           imagePullPolicy: IfNotPresent
           ports:

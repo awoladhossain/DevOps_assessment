@@ -17,7 +17,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          # Dynamic tag version, replaced by CI/CD pipeline. Do not use 'latest' in production.
           image: ghcr.io/logicmatrix/frontend:v1.0.0
           imagePullPolicy: IfNotPresent
           ports:
